@@ -22,4 +22,7 @@
 // Key: if more blocks needed than num_blocks limit, then split kernel function calls in multiple times
 //          to use less than limited block amount per a kernel call while utilizing all processors
 
+// Forward propagation: left multiplication where input is on the left and the next layer weights(Matrix) on the right
+
+
 class 
