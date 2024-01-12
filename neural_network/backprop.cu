@@ -23,6 +23,16 @@
 //          to use less than limited block amount per a kernel call while utilizing all processors
 
 // Forward propagation: left multiplication where input is on the left and the next layer weights(Matrix) on the right
+// Do Forward propagation and Back propagation in the same call if arg=='training' using recursion
+
+
+// jacobian matrix(row-major)
+// row: function f_i
+// col: variable x_j of the function
+// col_space -> row_space
+
+// however, our jacobian is transposed becuase left multiplications
+
 
 
 class 
